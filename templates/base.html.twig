@@ -23,10 +23,6 @@
             </a></h1>
         <ul id="content">
             <li class="">
-                <a href="#">
-                    <h1>actualités</h1>
-                </a></li>
-            <li class="">
                 <a href="{{ path('osteopathe')}}" class="js-scrollTo">
                     <h1>ostéopathe</h1>
                 </a></li>
@@ -41,6 +37,10 @@
             <li class="">
                 <a href="{{ path('psychologue')}}" class="js-scrollTo">
                     <h1>psychologue</h1>
+                </a></li>
+            <li class="">
+                <a href="#">
+                    <h1>blog</h1>
                 </a></li>
             <li class="">
                 <a href="{{ path('contact')}}">
@@ -65,16 +65,15 @@
                     frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             <div class="text-align-center">
                 <p>53 Avenue des Pyrénées <br> 31600 Muret</p>
-                <p>De 9h à 20h</p>
-                <p>Du lundi au vendredi</p>
-            </div>
-            <div class="other-page">
-                <a href="#"class="focus"><p>Nous contacter</p></a>
-                <a href="#" class="focus"><p>Actualités</p></a>
-                {#                    <a href="#" class="focus"><p>Mentions Légales</p></a>#}
+                <a href="{{ path('contact')}}" class="focus"><p>Nous contacter</p></a>
+                <a href="#" class="focus"><p>Blog</p></a>
             </div>
         </div>
-        <div class="text-align-center">Ce site tient compte de la Charte relative à la création de site internet par les infirmiers, des article R.4312-69, R.4312-76 et R.4312-50 du Code de la Santé Publique.</div>
+        <div class="legale">
+            <p>Ce site tient compte de la Charte relative à la création de site internet par les infirmiers, des article R.4312-69, R.4312-76 et R.4312-50 du Code de la Santé Publique.</p>
+            <p>@ Pierre Travostion 2020 - Tous droits réservés | Conception / rewriting / développement : <a href="https://www.linkedin.com/in/aurick-b%C3%A9l%C3%A9nus/" target="_blank">Aurick Bélénus</a> |</p>
+            <a href="{{ path('legales')}}" class="focus"><p>Mentions Légales</p></a>
+        </div>
     </footer>
 </div>
 

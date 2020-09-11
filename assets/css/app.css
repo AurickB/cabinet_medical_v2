@@ -682,27 +682,14 @@ header h1{
     width: 800px;
 }
 
-#infirmier .presentation div:nth-child(1),
-#infirmier .presentation div:nth-child(3){
-    width: 33.33333333%;
+#infirmier .presentation div:nth-child(1){
+    width: 50%;
     border-radius: 6px;
-    padding: 0 10px;
 }
 
 #infirmier .presentation div:nth-child(2){
-    width: 33.33333333%;
+    width: 50%;
     border-radius: 6px;
-    padding: 0 5px;
-}
-
-#contact-infirmier .presentation div:nth-child(1),
-#contact-infirmier .presentation div:nth-child(3){
-    background-color: #fff;
-    box-shadow: 5px 5px 11px -6px rgba(71, 70, 70, 0.829);
-}
-
-#infirmier .presentation div:nth-child(3){
-    padding-top: 37px;
 }
 
 #infirmier .accordion-item-content .presentation{
@@ -760,6 +747,10 @@ header h1{
     background-image: url("../../public/media/public/infirmier-soin-specifique.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#infirmier .contact-infirmier{
+
 }
 
 
@@ -1073,6 +1064,10 @@ footer{
     background-color: #233548;
 }
 
+footer a{
+    color: #fff;
+}
+
 footer .content-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -1089,11 +1084,18 @@ footer .text-align-center{
     margin: auto;
 }
 
-footer .other-page{
-    display: flex;
+footer .legale p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+    font-size: 0.8rem;
+    line-height: 170%;
+}
+
+footer .legale{
     margin: 15px auto;
-    justify-content: space-around;
-    width: 600px;
+    width: 100%;
+    text-align: center;
 }
 
 footer .other-page p,
@@ -1116,8 +1118,7 @@ footer .other-page p,
         width: 100%;
     }
 
-    footer .other-page{
-        flex-direction: column;
+    footer .legale{
         width: 100%;
         text-align: center;
     }

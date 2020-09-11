@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868e8ae8-23df-4389-b9cf-d1ae5a0a74d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/LegalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/legale.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/infirmier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/infirmier.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/osteo.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/osteo.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/psychologue.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/psychologue.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/sage-femme.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/sage-femme.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589890310758</updated>
       <workItem from="1589890313207" duration="7138000" />
-      <workItem from="1599811438682" duration="8568000" />
+      <workItem from="1599811438682" duration="14250000" />
     </task>
     <servers />
   </component>
