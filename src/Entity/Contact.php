@@ -7,10 +7,11 @@ use Symfony\Component\Validator\Constraints as Assert;
 class Contact {
 
     const MAIL = [
+        'Test' => 'test@test.fr',
         'Pierre Travostion - Ostéopathe' => 'travostinopierre@gmail.com',
         'Bénédicte Jacquin - Infimière Libérale' => 'bene.j31@gmail.com',
         'Céline Papy - Infirmière Libérale' => 'celinepapy31@gmail.com',
-        'Éléonor Helle - Sage-Femme' => 'eleonore.helle@hotmail.fr',
+        'Éléonore Helle - Sage-Femme' => 'eleonore.helle@hotmail.fr',
         'Marie Scaldaferro - Psychologue' => 'm.scafont@yahoo.fr',
     ];
 
