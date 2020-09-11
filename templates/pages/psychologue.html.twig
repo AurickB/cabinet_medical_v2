@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'Psychologue, Psychologue clinicienne, Psychothérapeute - Marie Scaldaferro' %}
+
+{% block body %}
+
+    <section id="psychologue" class="">
+        <div class="content-wrapper">
+            <article class="">
+                <!-- Présentation praticien -->
+                <div class="container">
+                    <div class="text-align-center">
+                        <h1 class="">Psychologue<br>Psychologue clinicienne <br>Psychothérapeute</h1>
+                    </div>
+                    <div class="bouton"><a href="#contact-psychologue" class="js-scrollTo">Contactez-moi</a></div>
+                    <div class="presentation">
+                        <div class="">
+                            <h2>Marie Scaldaferro</h2>
+                            <p>Psychologue Diplôme D’Études Supérieures Spécialisées</p>
+                        </div>
+                    </div>
+                    <div class="patient">
+                        <p> Enfants - Adolescents - Adultes - Couples - Familles</p>
+                    </div>
+                    <!-- Presentation -->
+                    <div class="presentation-item">
+                        <div class="presentation-item-content">
+                            <img class="presentation-item-logo" src="{{('/media/public/psychologue-inside.jpg')}}" alt="photo interieur cabinet">
+                            <p>Psychologue clinicienne, et psychothérapeute, je reçois à mon cabinet bébés, enfants, adolescents, adultes, couples et familles.<br><br>Vous pouvez me rencontrer afin d'aborder vos problématiques et vos symptômes. Grâce au travail de psychothérapie que vous pouvez mener avec mon soutien, vous aurez la possibilité d'aborder différentes thématiques afin de les traverser puis de les dépasser.<br><br>Voici des exemples de thématiques pour lesquelles vous pouvez me rencontrer:<br><br>L'<b>anxiété</b> ou le <b>stress</b>, des <b>angoisses</b> ou <b>phobies</b>, une <b>dépression</b>, un <b>deuil</b>, une <b>guidance parentale</b>, des <b>troubles du comportement</b>, des <b>difficultés ou des troubles dans les apprentissages scolaires</b> (<i>bilan psychologique et psychométrique WISC 4 et test de Rorschach</i>), la <b>gestion de ses émotions</b>, des <b>difficultés professionnelles</b>, des <b>problèmes de couple</b>, des <b>difficultés de communication ou de relation familiale</b>, des <b>troubles alimentaires</b>, des <b>addictions</b> etc .....<br><br>En tant que psychologue je vous propose une écoute bienveillante et un soutien afin de mieux vous comprendre et ainsi de vous permettre de trouver vos solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Psychologue -->
+                <div id="contact-psychologue" class="text-align-center contact-position">
+                    <p>Consultation au cabinet ou à domicile</p>
+                    <p>Sur rendez-vous</p>
+                    <p>Pour plus de renseignements contactez moi au</p>
+                    <a href="tel:+33616231590">
+                        <p><img src="{{ '/media/public/logo-telephone.jpg'}}" alt="" class="logo-phone">06 16 23 15 90
+                        </p>
+                    </a>
+                    <a href="mailto:m.scafont@yahoo.fr">
+                        <p style="margin-bottom: 0;"><img src="{{ '/media/public/logo-email.jpg'}}" alt="" class="logo-email">m.scafont@yahoo.fr
+                        </p>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+{% endblock %}

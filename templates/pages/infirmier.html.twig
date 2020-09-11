@@ -1,0 +1,115 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'Infirmiers Libéraux - Jacquin Bénédicte & Papy Céline' %}
+
+{% block body %}
+
+    <section id="infirmier" class="infirmier">
+        <div class="content-wrapper">
+            <article class="">
+                <!-- Présentation praticien -->
+                <div class="container">
+                    <h1 class="text-align-center">Infirmiers liberaux</h1>
+                    <div class="bouton"><a href="#contact-infirmier" class="js-scrollTo">Contactez-nous</a></div>
+                    <div class="presentation">
+                        <div class="">
+                            <h2>Bénédicte Jacquin</h2>
+                            <p>Infiermier D.E (Diplômé d'État)</p>
+                        </div>
+                        <div class="">
+                            <h2>Michel Camboulives</h2>
+                            <p>Infiermier D.E (Diplômé d'État)</p>
+                        </div>
+                        <div class="">
+                            <h2>Céline Papy</h2>
+                            <p>Infiermier D.E (Diplômé d'État)</p>
+                        </div>
+                    </div>
+                    <!-- Certification -->
+                    <div class="certification">
+                        <p> Infirmiers Diplômés d'État en excercice libéral & conventionné, inscrits à l'ordre infirmier
+                        </p>
+                    </div>
+                    <!-- Presentation -->
+                    <div class="presentation-item">
+                        <div class="presentation-item-content">
+                            <p>Fort de 15 ans d'expérience notre équipe de 3 infirmiers libéraux, vous accueille dans son cabinet situé à Muret.<br><br>Exerçant dans tout le secteur Sud de Muret, Estantens, Eaunes, Ox, Seysses. vos infirmiers sont à votre disposition pour prodiguer tous les soins (<b>courant</b>, <b>spécifique</b> et <b>infirmiers à domicile</b>) dont vous en avez le besoin.<br><br>Vos infirmiers peuvent intervenir le matin à partir de 7h jusqu'au soir 20h.<br><br>N'hésitez pas à nous joindre afin de prendre <a href="#contact-infirmier" class="js-scrollTo"><b><u>rendez-vous</u></b></a>, et de profiter des soins les plus adaptés.
+                        </div>
+                        <img class="presentation-item-logo" src="{{'/media/public/infirmier-logo.jpg'}}" alt="photo-presentation-infirmier">
+                    </div>
+                </div>
+                <!-- Menu accordeon présentation des soins-->
+                <div class="accordion-wrapper">
+                    <div class="accordion-item closed">
+                        <div class="soin-courant accordion-item-heading">
+                            <div class="accordion-head-content">
+                                <h3>Soins courants</h3>
+                                <div class="lien">
+                                    <p></p>
+                                    <p>&#x2794;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item-content">
+                            <p>L'équipe est à votre disposition pour tous les soins courants dont vous pouvez avoir besoin : toilettes, nursing, pansements à refaire quotidiennement pour veiller à la bonne cicatrisation d'une plaie, prise de constantes, mais aussi prélèvements sanguins...<br><br>Faites appel à cette équipe d'infirmiers libérales pour tous vos soins infirmier à domicile.<br><br>Tous les actes prodigués sont répertoriés dans la nomenclature générale des Actes des professionnels infirmiers (NGAP) et sont conventionnés par l'assurance maladie. Ainsi il peuvent faire l'objet d'un remboursement de la part des mutelles et de la sécurité sociale, s'ils ont été l'objet d'une prescription de la part d'un médecin.</p>
+                            <div class="bouton"><a href="#contact-infirmier" class="js-scrollTo">Contactez-nous</a></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item closed">
+                        <div class="soin-specifique accordion-item-heading">
+                            <div class="accordion-head-content">
+                                <h3>Soins spécifiques</h3>
+                                <div class="lien">
+                                    <p></p>
+                                    <p>&#x2794;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item-content">
+                            <p>Votre équipe d'infirmiers à domicile est sensibilisée pour tout ce concerne les injections (intraveineuses, intradermiques, intramusculaires et sous-cutanées), les ablations de chimiothérapie ainsi que la pose et l'ablation de perfusions.<br><br>Par ailleurs l'équipe est également compétente pour le suivi des patients souffrant de diabète.<br>Afin de vous suivre au mieux et de vous prodiguer les soins spécifiques au diabète de type 1 ou 2, l'équipe maîtrise les spécificités de cette pathologie et saura réagir face aux problèmes qui peuvent survenir à tout instant.<br><br>De plus, nous somme habilités à effectuer tous les gestes et des soins prescrits pour le médecin.<br><br>Vous apprécierez notre disponibilité et notre sérieux.</p>
+                            <div class="bouton"><a href="#contact-infirmier" class="js-scrollTo">Contactez-nous</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Infirmier -->
+                <div id="contact-infirmier" class="text-align-center contact-position">
+                    <p>Consultation à domicile</p>
+                    <p>Sur rendez-vous</p>
+                    <p>Pour plus de renseignements contactez nous au</p>
+                    <div class="presentation">
+                        <div>
+                            <p><b>Bénédicte Jacquin</b></p>
+                            <a href="tel:+33645479945">
+                                <p><img src="{{'/media/public/logo-telephone.jpg'}}" alt="icone-telephone" class="logo-phone">0645 47 99 45</p>
+                            </a>
+                            <a href="mailto:bene.j31@gmail.com">
+                                <p><img src="{{'/media/public/logo-email.jpg'}}" alt="icone-email" class="logo-email">bene.j31@gmail.com
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <p><b>Michel Camboulives</b></p>
+                            <a href="tel:+33688158204">
+                                <p><img src="{{'/media/public/logo-telephone.jpg'}}" alt="icone-telephone" class="logo-phone">0688 15 82 04</p>
+                            </a>
+                            <a href="mailto:m_camboulives@orange.fr">
+                                <p><img src="{{'/media/public/logo-email.jpg'}}" alt="icone-email" class="logo-email">m_camboulives@orange.fr</p>
+                            </a>
+                        </div>
+                        <div>
+                            <p><b>Céline Papy</b></p>
+                            <a href="tel:+3368087731">
+                                <p><img src="{{'/media/public/logo-telephone.jpg'}}" alt="icone-telephone" class="logo-phone">0668 08 77 31</p>
+                            </a>
+                            <a href="mailto:celine-papy@hotmail.fr">
+                                <p><img src="{{'/media/public/logo-email.jpg'}}" alt="icone-email" class="logo-email">celine-papy@hotmail.fr
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+{% endblock %}
